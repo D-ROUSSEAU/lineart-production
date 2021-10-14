@@ -1,0 +1,27 @@
+CRITICAL - 2021-07-30 08:06:00 --> Invalid file: templates/footer.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/foote...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(21): view('templates/foote...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->view('home')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 08:06:00 --> Invalid file: templates/footer.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/foote...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(21): view('templates/foote...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->view('home')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 08:06:25 --> Invalid file: templates/footer.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/foote...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(21): view('templates/foote...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->view('home')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

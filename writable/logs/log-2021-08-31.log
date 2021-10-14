@@ -1,0 +1,27 @@
+CRITICAL - 2021-08-31 14:26:38 --> Invalid file: templates/header.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(175): view('templates/heade...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-31 14:28:48 --> Invalid file: user/templates/alerte.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/templates/...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('user/templates/...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(176): view('user/templates/...')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-31 14:44:45 --> Invalid file: suer/common/apropos.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('suer/common/apr...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('suer/common/apr...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(171): view('suer/common/apr...')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->apropos()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

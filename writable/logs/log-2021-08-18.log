@@ -1,0 +1,27 @@
+CRITICAL - 2021-08-18 03:45:19 --> Invalid file: pages/register.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/register....')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/register', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(48): view('pages/register')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->register()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-18 03:45:21 --> Invalid file: pages/register.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/register....')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/register', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(48): view('pages/register')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->register()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-18 08:03:37 --> syntax error, unexpected '!', expecting '('
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(56): view('templates/heade...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->register()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

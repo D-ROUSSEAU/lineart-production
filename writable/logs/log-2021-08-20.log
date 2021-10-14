@@ -1,0 +1,329 @@
+ERROR - 2021-08-20 02:47:34 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2021-08-20 02:47:34 --> Unknown column 'email' in 'where clause'
+#0 /Library/WebServer/Documents/lineart/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Library/WebServer/Documents/lineart/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Library/WebServer/Documents/lineart/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Library/WebServer/Documents/lineart/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/lineart/system/Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/lineart/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(37): CodeIgniter\BaseModel->first()
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#8 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-20 04:12:44 --> Class 'App\Models\MessageModel' not found
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->message()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 04:13:10 --> Class 'App\Models\MessageModel' not found
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->message()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 04:31:30 --> syntax error, unexpected ')'
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-20 04:31:44 --> syntax error, unexpected ')'
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-20 04:37:52 --> Call to a member function asObject() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 04:38:38 --> Call to a member function result_object() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 04:41:14 --> Call to undefined function printr()
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 04:41:26 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-20 04:42:43 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:43:08 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:43:09 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:43:10 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:43:10 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:43:10 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:43:23 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:45:39 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:45:41 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 29, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 04:46:20 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 28, Array)
+#1 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(28): array_diff(Array, Array)
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#3 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#5 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-20 04:47:00 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 28, Array)
+#1 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(28): array_diff(Array, Array)
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#3 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#5 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-20 04:47:01 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 28, Array)
+#1 /Library/WebServer/Documents/lineart/app/Views/admin/templates/header.php(28): array_diff(Array, Array)
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#3 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('admin/templates...', Array, true)
+#5 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(27): view('admin/templates...', Array)
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->admin()
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-20 09:22:11 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /Library/WebServer/Documents/lineart/system/Model.php on line 800
+#0 /Library/WebServer/Documents/lineart/system/Model.php(800): CodeIgniter\Database\BaseBuilder->get('id')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(105): CodeIgniter\Model->__call('get', Array)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-20 09:23:12 --> Call to undefined method App\Models\ProduitModel::getCollum
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(105): CodeIgniter\Model->__call('getCollum', Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-20 09:26:27 --> Call to a member function row() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:26:47 --> Call to undefined method App\Models\ProduitModel::row
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(105): CodeIgniter\Model->__call('row', Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-20 09:28:34 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /Library/WebServer/Documents/lineart/system/Model.php on line 800
+#0 /Library/WebServer/Documents/lineart/system/Model.php(800): CodeIgniter\Database\BaseBuilder->get('id')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(105): CodeIgniter\Model->__call('get', Array)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-20 09:28:52 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /Library/WebServer/Documents/lineart/system/Model.php on line 800
+#0 /Library/WebServer/Documents/lineart/system/Model.php(800): CodeIgniter\Database\BaseBuilder->get('id')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(105): CodeIgniter\Model->__call('get', Array)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-20 09:29:05 --> Call to undefined method App\Models\ProduitModel::row
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(105): CodeIgniter\Model->__call('row', Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-20 09:30:14 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:31:24 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:34:14 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Library/WebSer...', 106, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-20 09:34:27 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:34:31 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:34:52 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:35:14 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:35:29 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:36:04 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-20 09:36:32 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 107, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-20 09:36:51 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

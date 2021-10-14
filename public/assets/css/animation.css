@@ -1,0 +1,61 @@
+.zoom, .detail, .fond-studio-gauche, .fond-studio-droite, .fond-faq-gauche {
+    transition: transform .2s;
+}
+.surligne {
+    -webkit-transition: background-color .1s ease-in; /* Safari */
+    transition: background-color .1s ease-in;
+    -webkit-transition-delay: .1s; /* Safari */
+    transition-delay: .1s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+.detail:hover {
+    transform: scale(1.1);
+}
+.surligne:hover {
+    background-color: #e9ecef;
+}
+#presentationPartie1:hover .fond-studio-gauche {
+    transform: translateX(0%);
+}
+#presentationPartie2:hover .fond-studio-droite {
+    transform: translateX(0%);
+}
+.afficherQx:hover .fond-faq-gauche {
+    transform: translateX(0%);
+}
+.surligne:hover .servicesCategories {
+    opacity: 0;
+}
+.surligne:hover .servicesTextes {
+    opacity: 1;
+}
+#services .row:hover {
+    background-color: #e9ecef;
+}
+.ficheArtiste:hover img{
+    opacity: 0.5;
+}
+.ficheArtiste:hover div{
+    opacity: 1;
+}
+.descriptionArtisteGauche .row:hover .imgArtiste{
+    transform: translateX(-200%);
+}
+.descriptionArtisteGauche .row:hover h1{
+    opacity: 0;
+}
+.descriptionArtisteGauche .row:hover .texte{
+    opacity: 1;
+}
+.descriptionArtisteDroite .row:hover .imgArtiste{
+    transform: translateX(200%);
+}
+.descriptionArtisteDroite .row:hover h1{
+    opacity: 0;
+}
+.descriptionArtisteDroite .row:hover .texte{
+    opacity: 1;
+}

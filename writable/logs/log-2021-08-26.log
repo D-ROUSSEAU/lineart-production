@@ -1,0 +1,449 @@
+CRITICAL - 2021-08-26 01:56:06 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /Library/WebServer/Documents/lineart/system/Autoloader/Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('/Library/WebSer...')
+#1 /Library/WebServer/Documents/lineart/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-26 01:56:18 --> Trying to access array offset on value of type null
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Library/WebSer...', 114, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(187): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 01:57:47 --> Trying to access array offset on value of type null
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Library/WebSer...', 114, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(186): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:00:13 --> Undefined variable: tab
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 178, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 02:08:12 --> Trying to access array offset on value of type null
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Library/WebSer...', 101, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(192): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-26 02:09:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '> '0'
+AND `prix` < '130'' at line 3
+CRITICAL - 2021-08-26 02:09:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '> '0'
+AND `prix` < '130'' at line 3
+#0 /Library/WebServer/Documents/lineart/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Library/WebServer/Documents/lineart/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Library/WebServer/Documents/lineart/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Library/WebServer/Documents/lineart/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/lineart/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/lineart/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(185): CodeIgniter\BaseModel->findAll()
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#8 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-26 02:10:29 --> Undefined variable: prixMin
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 78, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(192): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:11:51 --> Undefined variable: prixMin
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 80, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(192): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:17:24 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 186, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(186): array_push(NULL, 'hardcore')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-26 02:18:15 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 187, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(187): array_push(NULL, 'hardcore')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-26 02:18:33 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 187, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(187): array_push('', 'hardcore')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-26 02:18:40 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 189, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(189): array_push('', 'trap')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-26 02:19:34 --> A non-numeric value encountered
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Library/WebSer...', 189, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 02:21:11 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:21:46 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:22:48 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 189, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(189): array_push('', 'trap')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-26 02:23:51 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:24:17 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:24:20 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:26:00 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(199): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-26 02:26:13 --> Operand should contain 1 column(s)
+CRITICAL - 2021-08-26 02:26:13 --> Operand should contain 1 column(s)
+#0 /Library/WebServer/Documents/lineart/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /Library/WebServer/Documents/lineart/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Library/WebServer/Documents/lineart/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Library/WebServer/Documents/lineart/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/lineart/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/lineart/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(191): CodeIgniter\BaseModel->findAll()
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#8 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-26 02:28:32 --> Undefined variable: tab
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 196, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 02:29:29 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(202): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:29:36 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(202): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:29:40 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(202): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:30:20 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(204): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:31:02 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 189, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(189): array_push(NULL, 'hardcore')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-26 02:31:19 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(204): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:32:29 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(202): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:32:39 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(202): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:38:01 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(202): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:51:22 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:51:29 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:52:07 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:52:10 --> Undefined variable: produits
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 97, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:52:31 --> A non-numeric value encountered
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/sample.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Library/WebSer...', 78, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 02:53:29 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-26 02:53:32 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(201): view('pages/sample')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-26 03:00:35 --> syntax error, unexpected '{'
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/sample', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(202): view('pages/sample')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->storeSample()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-26 07:02:41 --> There is no data to update.
+#0 /Library/WebServer/Documents/lineart/system/BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Library/WebServer/Documents/lineart/system/BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /Library/WebServer/Documents/lineart/system/Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(78): CodeIgniter\Model->update(Array)
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->modifierUtilisateur()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-26 07:04:03 --> There is no data to update.
+#0 /Library/WebServer/Documents/lineart/system/BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Library/WebServer/Documents/lineart/system/BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /Library/WebServer/Documents/lineart/system/Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(78): CodeIgniter\Model->update(Array)
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->modifierUtilisateur()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-26 07:07:35 --> There is no data to update.
+#0 /Library/WebServer/Documents/lineart/system/BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Library/WebServer/Documents/lineart/system/BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /Library/WebServer/Documents/lineart/system/Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(80): CodeIgniter\Model->update(Array)
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->modifierUtilisateur()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-26 07:10:06 --> Call to a member function where() on bool
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->modifierUtilisateur()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-26 07:10:52 --> Call to a member function where() on bool
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->modifierUtilisateur()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-26 07:12:55 --> Undefined index: id
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Library/WebSer...', 81, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->modifierUtilisateur()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

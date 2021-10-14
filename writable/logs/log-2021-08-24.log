@@ -1,0 +1,9 @@
+CRITICAL - 2021-08-24 01:54:03 --> syntax error, unexpected '?>'
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/store', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(167): view('pages/store')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->store()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,110 @@
+CRITICAL - 2021-09-01 01:45:04 --> Call to undefined method App\Controllers\Home::creationPanier()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->login()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-01 01:46:33 --> Invalid file: templates/header.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/User.php(83): view('templates/heade...')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\User->panier()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 01:50:57 --> Call to undefined method App\Controllers\User::setUserMethod()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\User->achats()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-01 01:51:36 --> Invalid file: user/template/alertes.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/template/a...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('user/template/a...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/User.php(76): view('user/template/a...')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\User->achats()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 01:52:15 --> Invalid file: user/alertes.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/alertes.ph...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('user/alertes', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/User.php(84): view('user/alertes')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\User->panier()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 01:53:11 --> Invalid file: templates/header.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Store.php(19): view('templates/heade...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Store->store()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Store))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 01:53:19 --> Invalid file: templates/header.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Store.php(19): view('templates/heade...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Store->store()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Store))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 01:57:45 --> Invalid file: templates/header.php
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Store.php(19): view('templates/heade...', Array)
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Store->store()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Store))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 10:26:40 --> Undefined variable: uri
+#0 /Library/WebServer/Documents/lineart/app/Views/user/templates/footer.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 18, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('user/templates/...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(187): view('user/templates/...')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->apropos()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-01 10:27:01 --> Undefined variable: uri
+#0 /Library/WebServer/Documents/lineart/app/Views/user/templates/footer.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 18, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('user/templates/...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(20): view('user/templates/...')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-01 10:27:30 --> Undefined variable: uri
+#0 /Library/WebServer/Documents/lineart/app/Views/user/templates/footer.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 18, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('user/templates/...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(20): view('user/templates/...')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-01 10:27:32 --> Undefined variable: uri
+#0 /Library/WebServer/Documents/lineart/app/Views/user/templates/footer.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 18, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('user/templates/...', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(187): view('user/templates/...')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->apropos()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

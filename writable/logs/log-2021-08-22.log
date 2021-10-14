@@ -1,0 +1,569 @@
+CRITICAL - 2021-08-22 04:51:10 --> Undefined index: achat
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Library/WebSer...', 249, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(224): App\Controllers\Pages->setUserMethod(Array)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->login()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 06:49:41 --> Trying to access array offset on value of type null
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/profil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Library/WebSer...', 22, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/profil', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(289): view('pages/profil')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->profil()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 06:49:43 --> Trying to access array offset on value of type null
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/profil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Library/WebSer...', 22, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/profil', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(289): view('pages/profil')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->profil()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 07:17:46 --> Trying to access array offset on value of type null
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/profil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Library/WebSer...', 22, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/profil', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(289): view('pages/profil')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->profil()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 07:17:51 --> Trying to access array offset on value of type null
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/profil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Library/WebSer...', 22, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/profil', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(289): view('pages/profil')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->profil()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 09:01:33 --> Undefined variable: session
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(393): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 393, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:02:06 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 09:02:44 --> Undefined index: panier
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(394): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Library/WebSer...', 394, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:07:04 --> Undefined variable: _SESSION
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(393): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 393, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:10:19 --> Undefined variable: session
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(393): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 393, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:10:34 --> Illegal string offset 'idProduit'
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(402): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Library/WebSer...', 402, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:10:52 --> Illegal string offset 'idProduit'
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(402): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Library/WebSer...', 402, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:13:38 --> Illegal string offset 'libelleProduit'
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Library/WebSer...', 403, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:19:20 --> Undefined variable: user
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 1, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(369): view('pages/panier')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 09:19:37 --> Undefined variable: user
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 1, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(369): view('pages/panier')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 09:24:40 --> Undefined variable: session
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 15, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(369): view('pages/panier')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 09:25:31 --> Undefined variable: session
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 16, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(369): view('pages/panier')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 09:33:35 --> Call to a member function has() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 09:34:21 --> Call to a member function has() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 09:35:13 --> Trying to get property 'libelleProduit' of non-object
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 390, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:41:56 --> Undefined variable: session
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(389): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 389, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:43:26 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 15, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(370): view('pages/panier')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 09:46:11 --> Trying to get property 'libelleProduit' of non-object
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 390, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:46:53 --> Too few arguments to function CodeIgniter\Session\Session::has(), 0 passed in /Library/WebServer/Documents/lineart/app/Controllers/Pages.php on line 390 and exactly 1 expected
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): CodeIgniter\Session\Session->has()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 09:47:24 --> Call to a member function has() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 09:48:01 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 09:48:17 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:06:12 --> Undefined variable: positionProduit
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 400, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:06:47 --> Call to a member function has() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:09:04 --> Trying to get property 'idProduit' of non-object
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 401, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:09:55 --> Trying to get property 'idProduit' of non-object
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(389): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 389, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:10:35 --> Trying to get property 'idProduit' of non-object
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(389): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 389, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:20:08 --> Call to a member function get() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:21:01 --> Call to a member function get() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:21:04 --> Call to a member function get() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:22:08 --> array_search() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_search() ...', '/Library/WebSer...', 389, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(389): array_search('1', '1')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 13:22:43 --> Undefined variable: positionProduit
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(404): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 404, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:23:37 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 403, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(403): printf(Array)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 13:23:52 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(403): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 403, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:28:21 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:29:40 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:29:44 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:29:48 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:31:50 --> Undefined offset: 1
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(393): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 393, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:33:43 --> Call to a member function push() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:42:03 --> Call to undefined function App\Controllers\creationPanier()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:42:53 --> Call to undefined function App\Controllers\creationPanier()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:42:57 --> Call to undefined function App\Controllers\creationPanier()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:43:46 --> Call to undefined function App\Controllers\creationPanier()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:43:52 --> Call to undefined function App\Controllers\creationPanier()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:44:08 --> Call to undefined function App\Controllers\creationPanier()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 13:45:05 --> Undefined variable: session
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 390, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 13:51:44 --> Array to string conversion
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Library/WebSer...', 15, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(362): view('pages/panier')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 14:01:46 --> Call to undefined function montantGlobal()
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(362): view('pages/panier')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-22 14:02:34 --> Undefined index: total
+#0 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Library/WebSer...', 24, Array)
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#4 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(362): view('pages/panier')
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-22 14:02:57 --> Call to undefined function App\Controllers\montantGlobal()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 14:04:17 --> Call to undefined function App\Controllers\str()
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(375): App\Controllers\Pages->creationPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 14:05:12 --> Call to undefined function App\Controllers\montantGlobal()
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-22 14:06:43 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 395, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(395): array_push('', 80)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 14:07:58 --> htmlspecialchars() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'htmlspecialchar...', '/Library/WebSer...', 24, Array)
+#1 /Library/WebServer/Documents/lineart/app/Views/pages/panier.php(24): htmlspecialchars(Array)
+#2 /Library/WebServer/Documents/lineart/system/View/View.php(230): include('/Library/WebSer...')
+#3 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#5 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(362): view('pages/panier')
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#7 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-22 14:09:14 --> Call to undefined method CodeIgniter\View\View::montantGlobal()
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(362): view('pages/panier')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-22 14:45:35 --> Unsupported operand types
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): App\Controllers\Pages->montantGlobal()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 14:47:15 --> Unsupported operand types
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): App\Controllers\Pages->montantGlobal()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 14:48:51 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 391, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(391): array_push('', 80)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 14:52:16 --> A non-numeric value encountered
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Library/WebSer...', 406, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): App\Controllers\Pages->montantGlobal()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 15:32:20 --> Undefined variable: i
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(390): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 390, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 15:36:49 --> Call to undefined method CodeIgniter\View\View::montantGlobal()
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('pages/panier', Array, true)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(362): view('pages/panier')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->panier()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-22 16:01:42 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(406): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 406, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(392): App\Controllers\Pages->compteTotal()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 16:04:19 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(406): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 406, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(392): App\Controllers\Pages->compteTotal()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-22 16:06:18 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(395): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 395, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 16:07:53 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(395): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 395, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 16:08:44 --> Undefined offset: 1
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(395): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 395, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 16:09:00 --> Undefined variable: i
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(383): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 383, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 16:19:15 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(388): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 388, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-22 16:19:36 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Library/WebSer...', 393, Array)
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(393): array_push(NULL, 80)
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutPanier()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

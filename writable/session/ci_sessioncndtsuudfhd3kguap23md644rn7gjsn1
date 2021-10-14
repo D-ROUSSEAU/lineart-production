@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1630608932;_ci_previous_url|s:32:"http://localhost/lineart/public/";error|s:259:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Veuillez renseigner une adresse avant de vous abonner</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:1:{s:5:"error";s:3:"old";}

@@ -1,0 +1,15 @@
+CRITICAL - 2021-09-02 13:20:39 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 /Library/WebServer/Documents/lineart/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/lineart/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/lineart/system/Common.php(1250): CodeIgniter\View\View->render('templates/alert...', Array, true)
+#3 /Library/WebServer/Documents/lineart/app/Controllers/Home.php(14): view('templates/alert...')
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 14:34:09 --> Class 'App\Filters\PagesCheck' not found
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(410): CodeIgniter\Filters\Filters->run('apropos', 'before')
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#3 {main}

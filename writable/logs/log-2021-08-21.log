@@ -1,0 +1,146 @@
+CRITICAL - 2021-08-21 03:27:58 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 03:29:17 --> Call to a member function move() on array
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 03:29:58 --> Call to a member function move() on null
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 03:30:36 --> Call to a member function move() on null
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 03:52:43 --> Call to a member function move() on null
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 04:15:46 --> Call to a member function store() on null
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 04:18:42 --> Call to a member function store() on null
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 04:19:01 --> Call to a member function store() on null
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 04:20:33 --> Call to a member function store() on null
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 04:20:46 --> Le fichier original n'est pas un fichier valide.
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(379): CodeIgniter\HTTP\Files\UploadedFile->move('/Library/WebSer...', '38.jpg')
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(108): CodeIgniter\HTTP\Files\UploadedFile->store('../public/asset...', '38.jpg')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-21 04:23:44 --> Impossible de déplacer le fichier phpxbYKcx vers /Library/WebServer/Documents/lineart/writable/uploads/../../public/assets/images/produits/ ()
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpxbYKcx', '/Library/WebSer...', '')
+#1 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(379): CodeIgniter\HTTP\Files\UploadedFile->move('/Library/WebSer...', '40.jpg')
+#2 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(108): CodeIgniter\HTTP\Files\UploadedFile->store('../../public/as...', '40.jpg')
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-21 04:27:36 --> Call to a member function move() on string
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 04:52:52 --> Undefined variable: mg
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 99, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 04:53:03 --> Undefined variable: upload
+#0 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 113, Array)
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 04:53:19 --> Impossible de déplacer le fichier phpqRsNXZ vers ./assets/images/produits/ ()
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpqRsNXZ', './assets/images...', '')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(113): CodeIgniter\HTTP\Files\UploadedFile->move('./assets/images...', '45.jpg')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 04:56:08 --> Impossible de déplacer le fichier phpZOTK5a vers ./assets/images/produits/ ()
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpZOTK5a', './assets/images...', '')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(112): CodeIgniter\HTTP\Files\UploadedFile->move('./assets/images...', '47')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 04:57:24 --> Impossible de déplacer le fichier phpxFT8N4 vers ../public/assets/images/produits/ ()
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpxFT8N4', '../public/asset...', '')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(112): CodeIgniter\HTTP\Files\UploadedFile->move('../public/asset...', '49')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 06:32:25 --> Impossible de déplacer le fichier phpvlt3gK vers ./assets/images/produits/ ()
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpvlt3gK', './assets/images...', '')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(112): CodeIgniter\HTTP\Files\UploadedFile->move('./assets/images...', '50.jpg')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 06:35:45 --> Call to a member function move() on string
+#0 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#1 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-21 06:36:13 --> Impossible de déplacer le fichier phpakj1ex vers ./assets/images/produits/ ()
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpakj1ex', './assets/images...', '')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(112): CodeIgniter\HTTP\Files\UploadedFile->move('./assets/images...', '52.jpg')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 06:38:35 --> Impossible de déplacer le fichier phprGtkWY vers ./assets/images/produits/ ()
+#0 /Library/WebServer/Documents/lineart/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phprGtkWY', './assets/images...', '')
+#1 /Library/WebServer/Documents/lineart/app/Controllers/Pages.php(112): CodeIgniter\HTTP\Files\UploadedFile->move('./assets/images...', '52.jpg')
+#2 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(931): App\Controllers\Pages->ajoutArticle()
+#3 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 /Library/WebServer/Documents/lineart/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/lineart/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
